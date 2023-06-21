@@ -40,7 +40,7 @@ return;
 }else{
 document.getElementById("payment").innerHTML=`Monthly E.M.I &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp   &nbsp &nbsp  ₹${payment.toFixed(2)}`;
 document.getElementById("payable").innerHTML=`Total Interset &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp   &nbsp &nbsp    ₹${interest.toFixed(2)}`;
-document.getElementById("total").innerHTML=`Payable Amount  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  ₹${(payment*months).toFixed(2)}`
+document.getElementById("total").innerHTML=`Payable Amount  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  ₹${(payment*months).toFixed(2)}`
 
 }
 
