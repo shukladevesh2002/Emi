@@ -16,7 +16,7 @@
                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                    border:2px solid black;
                    width:50%;
-                   height:72%;
+                   height:85%;
                     margin-left:25%;
                    margin-top:2%;
                         margin-right:0px;
@@ -29,6 +29,7 @@
               color:rgb(0,54,153);
             }    
             input{width:60%;
+                  height:30px;
                padding:4%;
                font-size:15px;
               outline:89px;
@@ -78,9 +79,7 @@
         </script>
   <body>
     <div id="calculator">
-      
-          
-             <h1>
+   <h1>
                E.M.I Calculator
              </h1>
     
@@ -93,9 +92,7 @@
         <p>Tenure(In Months) :</p>  
                 <input type="integer" id="months" name="months" >
         <button type="submit"  name="submit" id="button" onclick= "LOAN()">Calculate E.M.I</button>
-             
-        
-       <div id="result" class="result">
+           <div id="result" class="result">
           <h3 id="payment"></h3>
           <h3 id="payable" ></h3>
           <h3 id="total"></h3>
