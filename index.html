@@ -88,13 +88,13 @@
              </h1>
     
    <p>Loan Amount: ₨</p>
-               <input type="integer" id="amount" name="amount" >
+               <input type="integer" id="amount" name="amount" max-length="10">
                <br>
        <p>Interset Rate:%</p>     
-           <input type="integer" id="rate" name="rate" >
+           <input type="integer" id="rate" name="rate" max-length="3">
            <br>
         <p>Tenure(In Months) :</p>  
-                <input type="integer" id="months" name="months" >
+                <input type="integer" id="months" name="months" max-length="2">
         <button type="submit"  name="submit" id="button" onclick= "LOAN()">Calculate E.M.I</button>
            <div id="result" class="result">
           <h3 id="payment"></h3>
